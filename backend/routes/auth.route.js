@@ -8,4 +8,6 @@ router.post('/signup', register)
 
 router.post('/logout', logout)
 
+router.post('/login', login)
+
 export default router

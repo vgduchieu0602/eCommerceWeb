@@ -4,13 +4,15 @@ import {
     getAllProducts, 
     getFeaturedProducts, 
     createProduct, 
-    deleteProduct 
+    deleteProduct,
+    getRecommendedProducts
 } from '../controllers/product.controller.js'
 
 const router = express.Router()
 
 router.get('/', protectRoute, adminRoute, getAllProducts)
 router.get('/featured', getFeaturedProducts)
+router.get('/recommendations', getRecommendedProducts)
 router.post('/createProduct', protectRoute, adminRoute, createProduct)
 router.delete('/:id', protectRoute, adminRoute, deleteProduct)
 

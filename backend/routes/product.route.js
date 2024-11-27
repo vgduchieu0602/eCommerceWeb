@@ -6,7 +6,8 @@ import {
     createProduct, 
     deleteProduct,
     getRecommendedProducts,
-    getProductsByCategory
+    getProductsByCategory,
+    toggleFeaturedProduct
 } from '../controllers/product.controller.js'
 
 const router = express.Router()
@@ -16,6 +17,7 @@ router.get('/featured', getFeaturedProducts)
 router.get('/recommendations', getRecommendedProducts)
 router.get('/category/:category', getProductsByCategory)
 router.post('/createProduct', protectRoute, adminRoute, createProduct)
+router.patch('/:id', protectRoute, adminRoute, toggleFeaturedProduct)
 router.delete('/:id', protectRoute, adminRoute, deleteProduct)
 
 export default router

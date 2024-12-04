@@ -154,3 +154,6 @@ async function updateFeaturedProductCache () {
         res.status(500).json({message: "Server error: ", error: error.message })
     }
 }
+
+
+

@@ -21,19 +21,23 @@ là một chuẩn được sử dụng để truyền thông tin giữa các ứ
 là thư viện cung cấp các chức năng để tích hợp Stripe vào ứng dụng của bạn. Dễ dàng xử lý các giao dịch thanh toán, quản lý
 các thông tin thẻ tín dụng và quản lý các thông tin người dùng
 
-## 6. Cloudinary: là một dịch vụ lưu trữ và quản lý các tệp ảnh, video và âm thanh. Cung cấp các chức năng để tải lên và quản lý các tệp
+## 6. Cloudinary:
 
-đa phương tiện
+là một dịch vụ lưu trữ và quản lý các tệp ảnh, video và âm thanh. Cung cấp các chức năng để tải lên và quản lý các tệp đa phương tiện
 
-## 7. Cookie Parser: là thư viện để xử lý các cookie trong ứng dụng. Cung cấp chức năng đọc và viết các Cookie, quản lý cookie dễ dàng, an toàn
+## 7. Cookie Parser:
 
-## 8. Bcryptjs: là thư viện để mã hóa và so sánh mật khẩu trong ứng dụng. Cung cấp các chức năng để mã hóa mật khẩu, so sánh mật khẩu, tạo ra
+là thư viện để xử lý các cookie trong ứng dụng. Cung cấp chức năng đọc và viết các Cookie, quản lý cookie dễ dàng, an toàn
+
+## 8. Bcryptjs:
+
+là thư viện để mã hóa và so sánh mật khẩu trong ứng dụng. Cung cấp các chức năng để mã hóa mật khẩu, so sánh mật khẩu, tạo ra
 
 các salt, xây dựng web an toàn và bảo mật
 
-## 9. IoRedis: là thư viện để tương tác với Redis trong ứng dụng. Cung cấp chức năng để đọc và viết các key-value, quản lý các phiên, thực hiện
+## 9. IoRedis:
 
-các thao tác phức tạp trên Redis
+là thư viện để tương tác với Redis trong ứng dụng. Cung cấp chức năng để đọc và viết các key-value, quản lý các phiên, thực hiện các thao tác phức tạp trên Redis
 
 # FE libraries:
 

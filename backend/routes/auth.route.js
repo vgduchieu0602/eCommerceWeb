@@ -7,6 +7,7 @@ import {
   login,
   logout,
   refreshToken,
+  getProfile
 } from "../controllers/auth.controller.js";
 import { protectRoute } from "../middleware/auth.middleware.js";
 
@@ -18,6 +19,6 @@ router.post("/login", login);
 
 router.post("/refresh-token", refreshToken);
 
-router.get("/profile", protectRouteectRoute, getProfile);
+router.get("/profile", protectRoute, getProfile);
 
 export default router;

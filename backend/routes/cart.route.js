@@ -1,14 +1,13 @@
 import express from "express";
-
-const router = express.Router();
-
 import {
   addToCart,
-  removeAllFromCart,
   getCartProducts,
+  removeAllFromCart,
   updateQuantity,
 } from "../controllers/cart.controller.js";
 import { protectRoute } from "../middleware/auth.middleware.js";
+
+const router = express.Router();
 
 router.get("/", protectRoute, getCartProducts);
 router.post("/", protectRoute, addToCart);

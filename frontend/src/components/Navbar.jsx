@@ -2,6 +2,7 @@ import { ShoppingCart, UserPlus, LogIn, LogOut, Lock } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useUserStore } from "../stores/useUserStore";
 import { useCartStore } from "../stores/useCartStore";
+import Logo from "../../public/logo.png";
 
 const Navbar = () => {
   const { user, logout } = useUserStore();
@@ -16,7 +17,7 @@ const Navbar = () => {
             to="/"
             className="text-2xl font-bold text-purple-400 item-center space-x-2 flex"
           >
-            E-Commerce
+            <img src={Logo} alt="login" className="w-28 h-14" />
           </Link>
 
           <nav className="flex flex-wrap items-center gap-4">

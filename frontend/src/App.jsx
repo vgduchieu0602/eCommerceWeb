@@ -36,7 +36,7 @@ function App() {
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-gradient-to-t from-[#FCD9DF] to-[#CFE0F8]" />
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-gradient-to-t from-[#FCD9DF] to-[#c4d9f8]" />
         </div>
       </div>
 

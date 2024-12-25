@@ -35,8 +35,10 @@ const FeaturedProducts = ({ featuredProducts }) => {
   return (
     <div className="py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-center text-5xl sm:text-6xl font-bold text-pink-400 mb-4">
-          Featured
+        <h2 className="text-center text-5xl sm:text-6xl font-bold mb-4">
+          <span className="bg-gradient-to-r from-pink-400  to-teal-400 via-purple-400 bg-clip-text text-transparent">
+            Featured
+          </span>
         </h2>
         <div className="relative ">
           <div className="overflow-hidden ">
@@ -62,7 +64,7 @@ const FeaturedProducts = ({ featuredProducts }) => {
                       />
                     </div>
                     <div className="p-4">
-                      <h3 className="text-lg font-semibold mb-2 text-purple-500">
+                      <h3 className="text-lg font-semibold mb-2 text-gray-900">
                         {product.name}
                       </h3>
                       <p className="text-pink-400 font-medium mb-4">

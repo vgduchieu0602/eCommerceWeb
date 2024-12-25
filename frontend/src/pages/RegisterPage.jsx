@@ -28,7 +28,9 @@ const RegisterPage = () => {
         transition={{ duration: 0.8 }}
       >
         <h2 className="mt-6 text-center text-3xl font-extrabold text-pink-400">
-          Create your account
+          <span className="bg-gradient-to-r from-pink-400  to-teal-400 via-purple-400 bg-clip-text text-transparent">
+            Create your account
+          </span>
         </h2>
       </motion.div>
 

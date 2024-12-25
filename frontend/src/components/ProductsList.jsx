@@ -64,8 +64,13 @@ const ProductsList = () => {
                     />
                   </div>
                   <div className="ml-4">
-                    <div className="text-sm font-medium text-white">
-                      {product.name}
+                    <div
+                      className="text-sm font-medium text-white"
+                      title={product.name}
+                    >
+                      {product.name.length > 20
+                        ? product.name.slice(0, 20) + "..."
+                        : product.name}
                     </div>
                   </div>
                 </div>

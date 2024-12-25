@@ -62,7 +62,7 @@ const RegisterPage = () => {
                     setFormData({ ...formData, name: e.target.value })
                   }
                   className="block w-full px-3 py-2 pl-10 bg-gray-700 border border-gray-600 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-purple-400 focus:border-purple-400 sm:text-sm"
-                  placeholder="Vuong Duc Hieu"
+                  placeholder="Nguyen Van A"
                 />
               </div>
             </div>
